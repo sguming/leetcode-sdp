@@ -4,6 +4,7 @@ class Solution:
             for j in range(i+1,len(nums)):
                 if x + nums[j] == target:
                     return [i,j]
+        raise ValueError("No two sum solution")
 
 
 if __name__ == "__main__":
